@@ -3,60 +3,148 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Adventure Travel</title>
-    <link rel="stylesheet" href="styles.css">
-    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <title>sriXplore</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="icon " href="sriXplore 1.png">
+    </link>
 </head>
+
 <body>
-
-    <header>
-        <div class="logo">Logo</div>
-        <nav>
-            <ul>
-                <li><a href="#">Places to stay</a></li>
-                <li><a href="#">Experiences</a></li>
-                <li><a href="#">Discover</a></li>
-            </ul>
+    <section class="navigation-bar">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="sriXplore 1.png" alt="Bootstrap" width="30" height="24">
+                </a>
+                <a class="navbar-brand fw-bold">sriXplore</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse"  id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0" >
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="Index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="content 1.html" font-style="fw-bold">Places to say</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Experiences</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Discover</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex align-text-bottom" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-primary" type="submit">Search</button>
+                    </form>
+                    <div class="mx-4"><a href="#"><img src="/icons/world.gif" alt="World" class="icons"></a></div>
+                    <div class="me-4"><a href="#"><img src="/icons/message.gif" alt="message" class="icons"></a></div>
+                    <div class="me-4"><a href="#"><img src="/icons/notification-50.png" alt="notification" class="icons"></a></div>
+                    <div class="me-4"><a href="#"><img src="/icons/user.png" alt="user" class="icons"></a></div>
+                </div>
+            </div>
         </nav>
-        <div class="icons">
-            <span>USD</span>
-            <i class="fas fa-user-circle"></i>
-        </div>
-    </header>
-
+        </nav>
+        
     <section class="search">
-        <input type="text" placeholder="Where are you going?">
-        <input type="date">
-        <input type="date">
-        <input type="number" placeholder="Guests">
-        <button>Search</button>
+        <div class="container-fluid">
+            
+         <input type="text" placeholder="Where are you going?">
+         <input type="date">
+         <input type="date">
+         <input type="number" placeholder="Guests">
+         <button class="btn btn-primary" type="submit">Go</button>
+         
+        </div>
+     </section>
+
+     <section class="hero">
+        <img src="New folder (2)\image1.webp" alt="hero" class="img-fluid">
     </section>
 
-    <section class="hero">
-        <img src="hero-placeholder.jpg" alt="Hero Image">
-    </section>
+    
 
     <section class="categories">
         <h2>A SIGNATURE OF EXCELLENCE</h2>
         <div class="category-container">
-            <div class="category"><img src="placeholder.jpg" alt="Mountains"><p>Mountains</p></div>
-            <div class="category"><img src="placeholder.jpg" alt="Beaches"><p>Beaches</p></div>
-            <div class="category"><img src="placeholder.jpg" alt="Ancient"><p>Ancient</p></div>
-            <div class="category"><img src="placeholder.jpg" alt="Waterfalls"><p>Waterfalls</p></div>
-            <div class="category large"><img src="placeholder.jpg" alt="Wildlife Safari"><p>Wildlife Safari</p></div>
-            <div class="category medium"><img src="placeholder.jpg" alt="Lake Getaways"><p>Lake Getaways</p></div>
-            <div class="category small"><img src="placeholder.jpg" alt="Camping"><p>Camping Adventure</p></div>
-            <div class="category large"><img src="placeholder.jpg" alt="Forest Retreat"><p>Forest Retreat</p></div>
+            <div class="category"><img src="New folder (2)/view-5163067_960_720.jpg" alt="Mountains" class="ms-0" width="350px" height="400px">
+                <p>Mountains</p>
+            </div>
+            <div class="category"><img src="New folder (2)/image_processing20181012-4-ip6jvy.jpg" alt="Beaches" class="mx-4" width="350px" height="400px">
+                <p class="mx-4">Beaches</p>
+            </div>
+            <div class="category"><img src="New folder (2)/sigiriya-459197_960_720.jpg" alt="Ancient" class="me-4" width="350px" height="400px">
+                <p>Ancient</p>
+            </div>
+            <div class="category"><img src="New folder (2)/3-ramboda-falls.jpg" alt="Waterfalls" class="me-4" width="350px" height="400px">
+                <p>Waterfalls</p>
+            </div>
+        </div>
+    </section>
+        
+    <section>
+        <div class="category-container2">
+            <div class="category large"><img src="New folder (2)/sri-lanka-national-parks-3-791x1024.jpg" alt="Wildlife Safari" class="ms-3" width="520px" height="660px">
+                <p class="ms-3">Wildlife Safari</p>
+            </div>
+         <div class="category1">  
+            <div class="category medium"><img src="New folder (2)/thaulle-resort.jpg" alt="Lake Getaways" class="mx-4" width="400px" height="300px">
+                <p class="mx-4">Lake Getaways</p>
+            </div>
+            <div class="category small"><img src="New folder (2)/thumb-816x460-60636d7c90a295e0b464614531c56d3f.jpg" alt="Camping" class="mx-4" width="400px" height="300px">
+                <p class="mx-4">Camping Adventure</p>
+            </div>        
+            </div>
+            <div class="category large"><img src="New folder (2)/eco-resorts-sri-lanka-342837544-818x1024.jpg" alt="Forest Retreat" class="mx-0" width="520px" height="660px">
+                <p class="mx-0">Forest Retreat</p>
+            </div>
         </div>
     </section>
 
     <section class="possibilities">
         <h2>FIND NEW POSSIBILITIES</h2>
         <div class="possibilities-container">
-            <div class="possibility"><img src="placeholder.jpg" alt=""><p>ADVENTURE PATH FOR YOUR TRIP</p></div>
-            <div class="possibility"><img src="placeholder.jpg" alt=""><p>THINGS TO DO FROM HOME</p></div>
+            <div class="possibility"><img src="New folder (2)\2ed050de.webp" alt="Cinque Terre" width="725px" height="500px">
+                <p>ADVENTURE PATH FOR YOUR TRIP</p>
+            </div>
+            <div class="possibility"><img src="New folder (2)/ruins-of-medirigiriya-vatadage-polonnaruwa.avif" alt="Cinque Terre"width="725px" height="500px"class="mx-4">
+                <p class="mx-4">THINGS TO DO FROM HOME</p>
+            </div>
         </div>
     </section>
 
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-section about">
+                <h3><a href="support.html"></a>Support</h3>
+            </div>
+           
+    
+            <div class="footer-section services">
+                <h3>Community</h3>
+            </div>
+            
+            <div class="footer-section newsletter">
+                <h3>About us</h3>
+            </div>
+            <div class="footer-section contact">
+                    <h3>USD</h3>
+                    <h3 class="mx-2"><a href="#"></a><img src="icons8-facebook-logo-50.png" alt="Facebook" class="icons"></a></h3>
+                    <h3 class="mx-2"><a href="#"><img src="icons8-instagram-logo-50.png" alt="Instagram" class="icons"></a></h3>
+                    <h3 class="mx-2"><a href="#"><img src="icons8-twitter-bird-50.png" alt="Twitter" class="icons"></a></h3>
+                    
+            </div>    
+        </div>
+        <div class="footer-bottom">
+            <p>© Copyright 2024 | All Rights Reserved by sriXplore.Powered By Eminence Developer</p>
+        </div>
+    </footer>
+
 </body>
+
 </html>
